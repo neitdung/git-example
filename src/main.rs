@@ -54,14 +54,14 @@ fn print_type_of<T>(_: &T) {
 }
 
 fn main() {
-    // simple::execute();
-    // advanced::execute();
-    // strsample::execute();
-    // crate::randsample2::hello::execute();
-    // let sample = String::with_capacity(3);
-    // println!("Sample 2: {:p}", &sample);
-    // let mut sample2 = sample;
-    // println!("Sample 2: {:p}", &sample2);
+    randsample::simple::execute();
+    randsample::advanced::execute();
+    strsample::execute();
+    crate::randsample2::hello::execute();
+    let sample = String::with_capacity(3);
+    println!("Sample 2: {:p}", &sample);
+    let mut sample2 = sample;
+    println!("Sample 2: {:p}", &sample2);
 
     // sample2.push_str("heo");
     
